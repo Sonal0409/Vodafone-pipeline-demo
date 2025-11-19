@@ -7,7 +7,7 @@ pipeline{
         stage('Checkout Code'){
 
             steps{
-              git https://github.com/Sonal0409/DevOpsCodeDemo.git'
+              git 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
             }
 
         }
